@@ -38,6 +38,15 @@
     transition: ease all 0.5s;
 }
 
+:root {
+    --primary-color: #a85009; /* Golden Wheat */
+    --secondary-color: #b66421; /* Earthy Brown */
+    --accent-color: #88A550; /* Olive Green */
+    --background-color: #FAF3E0; /* Soft Beige */
+    --text-color: #3D3D3D; /* Deep Charcoal */
+    --button-color: #D7883C; /* Burnt Orange */
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -235,8 +244,8 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg.png);
-    background-size: 100%;
+    background-image: url(../images/banner-bg1.png);
+    background-size: cover;
     background-repeat: no-repeat;
     height: auto;
 }
@@ -266,7 +275,7 @@ button {
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
-    color: #77a01d;
+    color: var(--primary-color);
     background-color: #fefefd;
 }
 
@@ -274,7 +283,7 @@ button {
 .navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
-    color: #77a01d;
+    color: var(--primary-color);
     background-color: #fefefd;
 }
 
@@ -333,7 +342,7 @@ button {
     width: 100%;
     float: left;
     padding: 10px 10px;
-    color: #77a01d;
+    color: var(--primary-color);
     background-color: #fefefd;
     text-align: center;
     font-size: 16px;
@@ -485,19 +494,19 @@ button {
 }
 
 .year_taital:hover {
-    color: #4a8216;
+    color: var(--primary-color);
 }
 
 .year_text:hover {
-    color: #4a8216;
+    color: var(--primary-color);
 }
 
 .year_taital.active {
-    color: #4a8216;
+    color: var(--primary-color);
 }
 
 .year_text.active {
-    color: #4a8216;
+    color: var(--primary-color);
 }
 
 
@@ -556,7 +565,7 @@ button {
 }
 
 .service_img {
-    width: 100%;
+    width: 4rem;
     line-height: 55px;
 }
 
@@ -576,7 +585,7 @@ button {
 .readmore_bt a {
     width: 100%;
     font-size: 16px;
-    color: #4caf50;
+    color: var(--primary-color);
     padding: 10px 0px;
     margin-top: 10px;
     font-weight: bold;
@@ -629,7 +638,7 @@ button {
     float: left;
     font-size: 16px;
     text-align: center;
-    background-color: #85a900;
+    background-color: var(--primary-color);
     color: #fefefd;
     padding: 10px 0px;
 }
@@ -687,7 +696,7 @@ button {
 
 .client_box {
     width: 100%;
-    background-color: #85a900;
+    background-color: var(--primary-color);
     height: auto;
     padding: 20px;
     border-radius: 10px;
@@ -749,13 +758,13 @@ button {
 .client_section.layout_padding .owl-carousel .owl-nav button.owl-next:hover {
     background-size: 12px;
     background-image: url(../images/right-arrow.png);
-    background-color: #85a900;
+    background-color: var(--primary-color);
 }
 
 .client_section.layout_padding .owl-carousel .owl-nav button.owl-prev:hover {
     background-size: 12px;
     background-image: url(../images/left-arrow.png);
-    background-color: #85a900;
+    background-color: var(--primary-color);
 }
 
 .owl-nav {
@@ -842,7 +851,7 @@ textarea#comment.massage-bt::placeholder {
     text-align: center;
     font-size: 18px;
     color: #fefefd;
-    background-color: #85a900;
+    background-color: var(--primary-color);
     padding: 10px;
     text-transform: uppercase;
     margin-top: 30px;
@@ -891,9 +900,7 @@ textarea#comment.massage-bt::placeholder {
     padding: 155px 0px;
 }
 
-.play_icon img {
-    width: 80px;
-}
+
 
 .play_icon {
     width: 100%;
@@ -901,6 +908,7 @@ textarea#comment.massage-bt::placeholder {
     position: relative;
     z-index: 5;
     text-align: center;
+    cursor: pointer;
 }
 
 .play_icon::before {
@@ -911,7 +919,7 @@ textarea#comment.massage-bt::placeholder {
     width: 90px;
     height: 90px;
     transform: translate(-50%, -50%);
-    background-color: rgb(133, 169, 0, 0.5);
+    background-color: #a85009;
     border-radius: 100%;
     animation: fadeEffect 1.3s infinite ease;
     box-shadow: 0px 0px 10px 0px;
@@ -978,7 +986,7 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .location_text a:hover {
-    color: #85a900;
+    color: var(--primary-color);
 }
 
 .footer_menu {
@@ -997,11 +1005,11 @@ textarea#comment.massage-bt::placeholder {
 }
 
 .footer_menu li.active a {
-    color: #85a900;
+    color: var(--primary-color);
 }
 
 .footer_menu li a:hover {
-    color: #85a900;
+    color: var(--primary-color);
 }
 
 span.padding_left_15 {
@@ -1033,7 +1041,7 @@ span.padding_left_15 {
 }
 
 .social_icon li a:hover {
-    color: #85a900;
+    color: var(--primary-color);
 }
 
 .update_mail {
@@ -1074,7 +1082,7 @@ textarea#comment.update_mail::placeholder {
 }
 
 .subscribe_bt a:hover {
-    color: #85a900;
+    color: var(--primary-color);
     background-color: transparent;
 }
 
@@ -1105,7 +1113,7 @@ textarea#comment.update_mail::placeholder {
 }
 
 .copyright_text a:hover {
-    color: #85a900;
+    color: var(--primary-color);
 }
 
 
