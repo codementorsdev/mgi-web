@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
 @font-face {
     font-family: "Righteous";
     src: url("../fonts/BalooChettan-Regular.ttf");
@@ -39,12 +40,18 @@
 }
 
 :root {
-    --primary-color: #944505; /* Golden Wheat */
-    --secondary-color: #b66421; /* Earthy Brown */
-    --accent-color: #88A550; /* Olive Green */
-    --background-color: #FAF3E0; /* Soft Beige */
-    --text-color: #3D3D3D; /* Deep Charcoal */
-    --button-color: #D7883C; /* Burnt Orange */
+    --primary-color: #944505;
+    /* Golden Wheat */
+    --secondary-color: #b66421;
+    /* Earthy Brown */
+    --accent-color: #88A550;
+    /* Olive Green */
+    --background-color: #FAF3E0;
+    /* Soft Beige */
+    --text-color: #3D3D3D;
+    /* Deep Charcoal */
+    --button-color: #D7883C;
+    /* Burnt Orange */
 }
 
 html {
@@ -130,7 +137,7 @@ h4 a,
 h5 a,
 h6 a {
     color: #212121;
-    text-decoration: none!important;
+    text-decoration: none !important;
     opacity: 1
 }
 
@@ -175,7 +182,7 @@ img {
     height: auto;
 }
 
- :focus {
+:focus {
     outline: 0;
 }
 
@@ -248,7 +255,7 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
-   
+
 }
 
 .bg-light {
@@ -261,7 +268,8 @@ button {
     background-color: white;
     border-radius: 50%;
 }
-.logo img{
+
+.logo img {
     width: 100%;
     object-fit: cover;
     filter: sepia(100%) contrast(200%);
@@ -269,7 +277,7 @@ button {
 
 .ml-auto,
 .mx-auto {
-    margin-left: auto!important;
+    margin-left: auto !important;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link {
@@ -586,7 +594,8 @@ button {
     align-items: center;
     padding: 10px;
 }
-.service_img i{
+
+.service_img i {
     font-size: 2rem;
     color: white;
 }
@@ -709,7 +718,7 @@ button {
 
 .client_section .owl-item.active.center img {
     transform: scale(1);
-    padding-bottom: 30px;
+    /* padding-bottom: 30px; */
 }
 
 .owl-item.active.center {
@@ -723,6 +732,8 @@ button {
     padding: 20px;
     border-radius: 10px;
     margin-top: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 .looking_text {
@@ -815,14 +826,14 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #353434;
+    color: var(--secondary-color);
     font-weight: bold;
     padding-bottom: 50px;
     text-align: center;
 }
 
 .contact_section_2 {
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     text-align: center;
 }
@@ -838,9 +849,10 @@ button {
     font-size: 16px;
     color: #c4c4c3;
     background-color: transparent;
-    padding: 14px 15px;
+    padding: 10px 15px;
     margin-top: 20px;
     border: 1px solid #c4c4c3;
+    border-radius: 7px;
 }
 
 input.mail_text::placeholder {
@@ -849,8 +861,9 @@ input.mail_text::placeholder {
 
 .massage-bt {
     color: #c4c4c3;
+    border-radius: 7px;
     width: 100%;
-    height: 57px;
+    /* height: 57px; */
     font-size: 16px;
     background-color: transparent;
     padding: 10px 15px 0px 15px;
@@ -955,6 +968,7 @@ textarea#comment.massage-bt::placeholder {
         transform: translate(-50%, -50%) scale(1);
         opacity: 1
     }
+
     100% {
         transform: translate(-50%, -50%) scale(1.2);
         opacity: 0;
