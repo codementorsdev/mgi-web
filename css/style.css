@@ -248,7 +248,7 @@ button {
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
-   
+
 }
 
 .bg-light {
@@ -264,7 +264,7 @@ button {
 .logo img{
     width: 100%;
     object-fit: cover;
-    filter: sepia(100%) contrast(200%);
+    filter:sepia(100%) contrast(200%);
 }
 
 .ml-auto,
@@ -276,15 +276,17 @@ button {
     padding-right: 20px;
     padding-left: 20px;
     font-size: 18px;
-    color: gray;
+    color: black;
+    font-weight: 700;
     background-color: transparent;
     margin-left: 10px;
+  
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
 .navbar-light .navbar-nav .nav-link:hover {
     color: var(--primary-color);
-    background-color: #fefefd;
+    /* background-color: #fefefd; */
     border-radius: 10px;
 }
 
@@ -293,12 +295,13 @@ button {
 .navbar-light .navbar-nav .nav-link.show,
 .navbar-light .navbar-nav .show>.nav-link {
     color: var(--primary-color);
-    background-color: #fefefd;
+    /* background-color: #fefefd; */
     border-radius: 10px;
 }
 
 .navbar {
     padding: 30px 0px 30px 0px;
+    
 }
 
 
@@ -312,7 +315,7 @@ button {
     height: 35rem;
     float: left;
     padding: 90px 0px 160px 0px;
-
+   
 }
 
 .banner_taital_main {
@@ -578,6 +581,7 @@ button {
 
 .service_img {
     width: 4rem;
+    height: 4rem;
     line-height: 55px;
     background-color: var(--primary-color);
     border-radius: 50%;
@@ -1014,6 +1018,25 @@ textarea#comment.massage-bt::placeholder {
 .footer_menu {
     width: 100%;
     float: left;
+}
+
+.sub-title{
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+    
+}
+
+ .f-logo{
+    width: 30%;
+    background-color: white;
+    border-radius: 50%;
+    margin-left:20px ;
+}
+.f-logo img{
+    width: 100%;
+    object-fit: cover;
+    filter: sepia(100%) contrast(200%);
 }
 
 .footer_menu ul {
