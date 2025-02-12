@@ -39,7 +39,7 @@
 }
 
 :root {
-    --primary-color: #a85009; /* Golden Wheat */
+    --primary-color: #944505; /* Golden Wheat */
     --secondary-color: #b66421; /* Earthy Brown */
     --accent-color: #88A550; /* Olive Green */
     --background-color: #FAF3E0; /* Soft Beige */
@@ -244,10 +244,11 @@ button {
 .header_section {
     width: 100%;
     float: left;
-    background-image: url(../images/banner-bg1.png);
+    background-image: url(../images/banner-bg2.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
+   
 }
 
 .bg-light {
@@ -255,8 +256,15 @@ button {
 }
 
 .logo {
-    width: 27%;
+    width: 10%;
     float: left;
+    background-color: white;
+    border-radius: 50%;
+}
+.logo img{
+    width: 100%;
+    object-fit: cover;
+    filter: sepia(100%) contrast(200%);
 }
 
 .ml-auto,
@@ -268,7 +276,7 @@ button {
     padding-right: 20px;
     padding-left: 20px;
     font-size: 18px;
-    color: #fefefd;
+    color: gray;
     background-color: transparent;
     margin-left: 10px;
 }
@@ -277,6 +285,7 @@ button {
 .navbar-light .navbar-nav .nav-link:hover {
     color: var(--primary-color);
     background-color: #fefefd;
+    border-radius: 10px;
 }
 
 .navbar-light .navbar-nav .active>.nav-link,
@@ -285,6 +294,7 @@ button {
 .navbar-light .navbar-nav .show>.nav-link {
     color: var(--primary-color);
     background-color: #fefefd;
+    border-radius: 10px;
 }
 
 .navbar {
@@ -299,8 +309,10 @@ button {
 
 .banner_section {
     width: 100%;
+    height: 35rem;
     float: left;
     padding: 90px 0px 160px 0px;
+
 }
 
 .banner_taital_main {
@@ -567,6 +579,16 @@ button {
 .service_img {
     width: 4rem;
     line-height: 55px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+.service_img i{
+    font-size: 2rem;
+    color: white;
 }
 
 .development_text {
