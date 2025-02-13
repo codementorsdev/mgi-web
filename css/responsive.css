@@ -158,9 +158,9 @@
     .header_section {
         background-size: cover;
     }
-    .logo {
+    /* .logo {
         width: auto;
-    }
+    } */
     .navbar {
         padding: 15px 0px 15px 0px;
     }
@@ -221,9 +221,9 @@
     .header_section {
         background-size: cover;
     }
-    .logo {
+    /* .logo {
         width: auto;
-    }
+    } */
     .navbar {
         padding: 15px 0px 15px 0px;
     }
@@ -241,6 +241,20 @@
     }
     .year_section_2 {
         width: 100%;
+    }
+    .year-responsive{
+        flex-wrap: nowrap;
+    }
+    .year_text {
+       
+        font-size: 12px;
+       
+        line-height: 13px;
+    }
+
+    .year_taital {
+        font-size: 25px;
+        line-height: 30px;
     }
     .year_taital {
         padding-top: 20px;
@@ -293,7 +307,7 @@
         background-size: cover;
     }
     .logo {
-        width: auto;
+        width: 16%;
     }
     .navbar {
         padding: 15px 0px 15px 0px;
@@ -309,6 +323,21 @@
         width: 100%;
         font-size: 30px;
         line-height: 40px;
+    }
+    .year-responsive{
+        flex-wrap: wrap;
+        text-align: center;
+    }
+    .year_text {
+       
+        font-size: 12px;
+       
+        line-height: 13px;
+    }
+
+    .year_taital {
+        font-size: 25px;
+        line-height: 30px;
     }
     .year_section_2 {
         width: 100%;
@@ -349,5 +378,13 @@
     }
     .useful_text {
         padding-top: 20px;
+    }
+
+    .f-logo {
+        
+        margin: auto;
+    }
+    .footer_section {
+        text-align: center;
     }
 }

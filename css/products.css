@@ -1,0 +1,68 @@
+.client_img img {
+    border-radius: 7px;
+}
+
+.know-more-btn {
+    background-color: var(--primary-color);
+    padding: 10px 15px;
+    border: 0;
+    border-radius: 7px;
+    margin-top: 12px;
+    color: #f1f1f1;
+}
+
+
+
+.client_taital {
+    color: var(--primary-color);
+}
+
+p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+
+.product-image {
+    display: flex;
+    justify-content: center;
+}
+
+.product-image img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+#productDescription {
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 10px 20px;
+}
+
+/* Specifications Section */
+.spec-container {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f1f1f1;
+    border-radius: 8px;
+}
+
+.spec-item {
+    margin-bottom: 15px;
+    padding: 10px;
+    background: #fff;
+    border-left: 5px solid var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.spec-question {
+    font-weight: bold;
+    color: var(--primary-color);
+}
+
+.spec-answer {
+    color: #555;
+}
