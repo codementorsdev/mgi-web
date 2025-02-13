@@ -40,7 +40,7 @@
 }
 
 :root {
-    --primary-color: #944505;
+    --primary-color: #D4A55D;
     /* Golden Wheat */
     --secondary-color: #b66421;
     /* Earthy Brown */
@@ -284,9 +284,11 @@ button {
     padding-right: 20px;
     padding-left: 20px;
     font-size: 18px;
-    color: gray;
+    color: black;
+    font-weight: 700;
     background-color: transparent;
     margin-left: 10px;
+
 }
 
 .navbar-light .navbar-nav .nav-link:focus,
@@ -307,6 +309,7 @@ button {
 
 .navbar {
     padding: 30px 0px 30px 0px;
+
 }
 
 
@@ -548,7 +551,7 @@ button {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #252525;
+    color: var(--primary-color);
     font-weight: bold;
     text-align: center;
 }
@@ -572,6 +575,10 @@ button {
     background-color: transparent;
     height: auto;
     padding: 20px 20px 30px 20px;
+    background: #fff;
+    border-top: 5px solid var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
 }
 
 .box_main:hover {
@@ -586,6 +593,7 @@ button {
 
 .service_img {
     width: 4rem;
+    height: 4rem;
     line-height: 55px;
     background-color: var(--primary-color);
     border-radius: 50%;
@@ -709,7 +717,7 @@ button {
     float: left;
     height: auto;
     background-size: 100%;
-    padding-top: 30px;
+    padding: 30px 0;
 }
 
 .client_section .item img {
@@ -727,7 +735,10 @@ button {
 
 .client_box {
     width: 100%;
-    background-color: var(--primary-color);
+    background-color: #fff;
+    border-top: 5px solid var(--primary-color);
+    border-radius: 5px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
     height: auto;
     padding: 20px;
     border-radius: 10px;
@@ -741,7 +752,7 @@ button {
     text-align: center;
     font-size: 24px;
     font-weight: bold;
-    color: #ffffff;
+    color: #000000;
     padding-bottom: 0px;
 }
 
@@ -749,7 +760,7 @@ button {
     width: 100%;
     text-align: center;
     font-size: 16px;
-    color: #ffffff;
+    color: #000000;
     margin: 0px;
     padding-top: 20px;
 }
@@ -819,14 +830,14 @@ button {
 .contact_section {
     width: 100%;
     float: left;
-    padding: 90px 0px 0px 0px;
+    padding: 90px 0px;
 }
 
 .contact_taital {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: var(--secondary-color);
+    color: var(--primary-color);
     font-weight: bold;
     padding-bottom: 50px;
     text-align: center;
@@ -915,7 +926,7 @@ textarea#comment.massage-bt::placeholder {
     width: 100%;
     float: left;
     font-size: 40px;
-    color: #353434;
+    color: var(--primary-color);
     font-weight: bold;
     padding-bottom: 50px;
     text-align: center;
@@ -954,7 +965,7 @@ textarea#comment.massage-bt::placeholder {
     width: 90px;
     height: 90px;
     transform: translate(-50%, -50%);
-    background-color: #a85009;
+    background-color: var(--primary-color);
     border-radius: 100%;
     animation: fadeEffect 1.3s infinite ease;
     box-shadow: 0px 0px 10px 0px;
@@ -1028,6 +1039,26 @@ textarea#comment.massage-bt::placeholder {
 .footer_menu {
     width: 100%;
     float: left;
+}
+
+.sub-title {
+    color: white;
+    font-size: 15px;
+    font-weight: 600;
+
+}
+
+.f-logo {
+    width: 30%;
+    background-color: white;
+    border-radius: 50%;
+    margin-left: 20px;
+}
+
+.f-logo img {
+    width: 100%;
+    object-fit: cover;
+    filter: sepia(100%) contrast(200%);
 }
 
 .footer_menu ul {
