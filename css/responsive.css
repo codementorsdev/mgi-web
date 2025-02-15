@@ -151,6 +151,7 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
         margin-top: 20px;
+        color: white;
     }
     .navbar-toggler {
         background-color: #fff;
@@ -214,6 +215,7 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
         margin-top: 20px;
+        color: white;
     }
     .navbar-toggler {
         background-color: #fff;
@@ -299,6 +301,7 @@
     .navbar-expand-lg .navbar-nav .nav-link {
         text-align: center;
         margin-top: 20px;
+        color: white;
     }
     .navbar-toggler {
         background-color: #fff;
@@ -366,6 +369,7 @@
     }
     .contact_section_2 {
         width: 100%;
+        padding: 10px;
     }
     .blog_taital {
         font-size: 28px;
