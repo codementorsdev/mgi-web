@@ -38,6 +38,7 @@ const productDetails = {
         ],
         "img": "images/pigeon-pea.jpeg"
     }
+   
 };
 
 function goToProductPage(productId) {
