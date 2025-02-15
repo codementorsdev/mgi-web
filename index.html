@@ -13,6 +13,14 @@
       <meta name="keywords" content="">
       <meta name="description" content="">
       <meta name="author" content="">
+       <!-- Open Graph Meta Tags -->
+      <meta property="og:title" content="Matarani Global Impex" />
+      <meta property="og:description" content="From Indian Farms to Global Lands" />
+      <meta property="og:image" content="https://mataraniglobalimpex.com/images/logo1.png" />
+      <meta property="og:image:secure_url" content="https://mataraniglobalimpex.com/images/logo1.png" />
+      <meta property="og:url" content="https://mataraniglobalimpex.com" />
+      <meta property="og:type" content="website" /> <!-- or "article" for articles -->
+
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
       <!-- bootstrap css -->
       <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
@@ -56,9 +64,9 @@
                      <li class="nav-item">
                         <a class="nav-link" href="service.html">Service</a>
                      </li>
-                     <li class="nav-item">
-                        <a class="nav-link" href="Blog.html">Blogs</a>
-                     </li>
+                     <!-- <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blogs</a>
+                     </li> -->
                      <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact Us</a>
                      </li>
@@ -165,8 +173,8 @@
             <div class="year_section_2">
                <div class="row year-responsive text-center">
                   <div class="col-md-4">
-                     <h1 class="year_taital active">30</h1>
-                     <br><span class="year_text active">Year<br>Exciperince</span>
+                     <h1 class="year_taital ">30</h1>
+                     <br><span class="year_text ">YEARS<br>EXPERIENCE</span>
                   </div>
                   <div class="col-md-4">
                      <div class="year_taital">250<br><span class="year_text">Happy<br>Customers</span></div>
@@ -288,7 +296,7 @@
          <div class="container">
             <div class="row">
                <div class="col-sm-12">
-                  <h1 class="contact_taital">Request A call Back</h1>
+                  <h1 class="contact_taital">Request A Call Back</h1>
                </div>
             </div>
          </div>
@@ -379,7 +387,7 @@
          <div class="container">
             <div class="row">
                <div class="col-md-12">
-                  <h1 class="blog_taital">How  We do work</h1>
+                  <h1 class="blog_taital">How  We Do Work</h1>
                </div>
             </div>
             <div class="blog_section_2">
@@ -418,19 +426,19 @@
                      <p class="sub-title">From Indian Firm to Global Land</p>
                   </div>
                   <div class="col-lg-4 col-sm-6">
-                     <h2 class="useful_text">Useful link </h2>
+                     <h2 class="useful_text">Useful links </h2>
                      <div class="footer_menu">
                         <ul>
                            <li class="active"><a href="index.html">Home</a></li>
                            <li><a href="about.html">About</a></li>
                            <li><a href="service.html">Service</a></li>
-                           <li><a href="blog.html">Blogs</a></li>
+                           <!-- <li><a href="blog.html">Blogs</a></li> -->
                            <li><a href="contact.html">Contact Us</a></li>
                         </ul>
                      </div>
                   </div>
                   <div class="col-lg-4 col-sm-6">
-                     <h2 class="useful_text">About</h2>
+                     <h2 class="useful_text">About us</h2>
                      <p class="lorem_text">We are committed to delivering the
                         highest quality agricultural products
                         to our global customers. Our
@@ -490,6 +498,9 @@
             margin:35,
             nav:true,
             center: true,
+            autoplay:true,
+            autoplayTimeout: 3000, // Delay in milliseconds (3 seconds)
+            autoplayHoverPause: true, // Pause on mouse hover
             responsive:{
              0:{
                  items:1,
